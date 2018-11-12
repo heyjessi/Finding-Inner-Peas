@@ -14,7 +14,8 @@ img {
 }
 
 .stories {
-	display: none;
+
+	opacity: 0;
 }
 
 .profile {

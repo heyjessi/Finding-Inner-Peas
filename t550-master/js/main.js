@@ -3,7 +3,8 @@
 console.log("Hello JS world!");
 
 $("#show").click(function(){
-    $(".stories").show();
+    // $(".stories").show();
+    $(".stories").animate({opacity: '1'}, "slow");
 });
 
 $("#show").click(function(){
@@ -23,26 +24,22 @@ $('#best').hover(function () {
                 function () { best.pause(); });
 
 $('#comfort').hover(function () {
-        console.log("hello1");
         comfort.load();
         comfort.play(); },
     function () { comfort.pause(); });
 
 
 $('#favorite').hover(function () {
-        console.log("hello2");
         favorite.load();
         favorite.play(); },
     function () { favorite.pause(); });
 
 $('#nostalgia').hover(function () {
-        console.log("hello3");
         nostalgia.load();
         nostalgia.play(); },
     function () { nostalgia.pause(); });
 
 $('#perfect').hover(function () {
-        console.log("hello4");
         perfect.load();
         perfect.play(); },
     function () { perfect.pause(); });
