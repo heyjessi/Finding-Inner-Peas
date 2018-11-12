@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D3 Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/regular.css" integrity="sha384-z3ccjLyn+akM2DtvRQCXJwvT5bGZsspS4uptQKNXNg778nyzvdMqiGcqHVGiAUyY" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+<body>
+
+    <!-- content -->
+
+    <audio id="bestAudio" >
+        <source src="audio/Cassandra-BestMeal.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="weekAudio" >
+        <source src="audio/Cassandra-BestWeek.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="comfortAudio" >
+        <source src="audio/Cassandra-Comfort.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="favoriteAudio" >
+        <source src="audio/Cassandra-Favorite.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="nostalgiaAudio" >
+        <source src="audio/Cassandra-Nostalgic.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="perfectAudio" >
+        <source src="audio/Cassandra-Perfect.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+
+    <h1>finding inner peas</h1>
+    <h4>exploring nostalgia and identity through food stories</h4>
+    <h4>a t550 project by jess eng</h4>
+    <br>
+    <div id="intro">
+        <p>Without food, survival is impossible. But thinking about food so narrowly, for one singular purpose such as survival, does not capture the creative processes that food invites. Food intersects our lives in tremendous ways. Though we might not explicitly recognize it, food is inherent to our identity and how we perceive the world. We identify with food as much as we identify with our ethnicities, genders, and our names. However, I’ve noticed that the way we introduce ourselves to others often follows a singular, rigid structure. “Hello my name is Jess and I’m from San Francisco”. What would a world look like if people identified with the memories of food, cooking, or even creative learning? What if instead, we thought about our identities through the lens of food, opening up the conversation to a deeper exploration of identity, culture, and retrospection: “Hello my name is Jess and I ate mantou (Chinese bread) for breakfast because it reminded me of my parents back home.” </p>
+    </div>
+
+    <h5><b>instructions:</b></h5>
+
+    <ol>
+        <li>click on the arrow below and enter a space where food evokes powerful memories</li>
+        <li>hover over an image to hear a 30-60 second audio snippet</li>
+        <li>stop to listen, remember, connect, and understand</li>
+        <li>enjoy!</li>
+    </ol>
+    <br>
+    <button class="btn btn-light" id="show"><i class="fas fa-arrow-right"></i></button>
+    <br>
+
+    <div class="stories" id="cass">
+        <h4>cassandra</h4>
+        <br>
+        <div class="profile row">
+            <img src="img/best1.png" id="best">
+            <div id="spacer"></div>
+            <img src="img/comfort1.png" id="comfort">
+            <div id="spacer"></div>
+            <img src="img/favorite1.png" id="favorite">
+            <div id="spacer"></div>
+            <img src="img/nostalgic1.png" id="nostalgia">
+            <div id="spacer"></div>
+            <img src="img/perfect1.png" id="perfect">
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/d3.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
