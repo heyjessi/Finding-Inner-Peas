@@ -1,0 +1,31 @@
+/* custom css rules */
+
+body {
+	font-family: 'Avenir Next', sans-serif;
+	margin: 25px;
+}
+
+h1 {
+}
+
+img {
+	width: 275px;
+	height: 275px;
+}
+
+.stories {
+	display: none;
+}
+
+.profile {
+
+	height: 300px;
+}
+
+#spacer {
+	width: 15px;
+}
+
+#intro {
+	width: 50%;
+}
